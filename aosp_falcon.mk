@@ -9,4 +9,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 PRODUCT_RELEASE_NAME := falcon
 PRODUCT_NAME := aosp_falcon
 
+$(call inherit-product, build/target/product/go_defaults.mk)
+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
